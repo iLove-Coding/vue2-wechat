@@ -1,0 +1,63 @@
+.i-foot {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.1304347826rem;
+    background-color: #f8f8f8;
+    border-top: solid 1px #b2b2b2;
+    box-sizing: border-box;
+    padding: 0.2028985507rem 0;
+}
+
+.i-foot a {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    font-size: 0.5217391304rem;
+    color: #7a7e83;
+}
+
+.i-foot a .fa-comment-o,
+.i-foot a .fa-comment {
+    display: block;
+    margin: 0 auto;
+    width: 1.1884057971rem;
+    height: 1.0144927536rem;
+    text-align: center;
+    font-size: 1.0144927536rem;
+}
+
+.i-foot a .fa-address-book-o,
+.i-foot a .fa-address-book {
+    display: block;
+    margin: 0 auto;
+    width: 1.1884057971rem;
+    height: 1.0144927536rem;
+    text-align: center;
+    font-size: 1.0144927536rem;
+}
+
+.i-foot a .fa-compass {
+    display: block;
+    margin: 0 auto;
+    width: 1.1884057971rem;
+    height: 1.0144927536rem;
+    text-align: center;
+    font-size: 1.0144927536rem;
+}
+
+.i-foot a .fa-user-o,
+.i-foot a .fa-user {
+    display: block;
+    margin: 0 auto;
+    width: 1.1884057971rem;
+    height: 1.0144927536rem;
+    text-align: center;
+    font-size: 1.0144927536rem;
+}
+
+
+/*# sourceMappingURL=footer.css.map */

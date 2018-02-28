@@ -1,0 +1,43 @@
+.i-head {
+    height: 2.0289855072rem;
+    background-color: #302f35;
+    text-align: center;
+    font-size: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 5; }
+    .i-head .title {
+      display: inline-block;
+      vertical-align: top;
+      font-size: 0.7826086957rem;
+      color: white;
+      line-height: 2.0289855072rem;
+      margin-right: 0.0869565217rem;
+      font-weight: normal; }
+    .i-head .tip {
+      font-size: 0.7826086957rem;
+      line-height: 2.0289855072rem;
+      color: white;
+      vertical-align: top;
+      width: 0.7536231884rem;
+      height: 0.7536231884rem; }
+      .i-head .tip .chat-num {
+        vertical-align: top;
+        font-size: 0.7826086957rem;
+        line-height: 2.0289855072rem;
+        font-style: normal; }
+    .i-head .add-icon {
+      position: absolute;
+      width: 0.8695652174rem;
+      height: 2.0289855072rem;
+      color: white;
+      font-size: 1.0144927536rem;
+      text-align: center;
+      line-height: 2.0289855072rem;
+      font-style: normal;
+      right: 0.7246376812rem; }
+  
+  /*# sourceMappingURL=header.css.map */
+  

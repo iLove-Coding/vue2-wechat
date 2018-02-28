@@ -1,0 +1,266 @@
+.chat-head {
+    height: 2.0289855072rem;
+    background-color: #302f35;
+    text-align: center;
+    font-size: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+.chat-head .return-icon {
+    position: absolute;
+    width: 3.768115942rem;
+    height: 2.0289855072rem;
+    color: white;
+    font-size: 0.7826086957rem;
+    line-height: 2.0289855072rem;
+}
+
+.chat-head .title {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.7826086957rem;
+    color: white;
+    line-height: 2.0289855072rem;
+    margin-right: 0.0869565217rem;
+    font-weight: normal;
+}
+
+.chat-head .fa-camera {
+    position: absolute;
+    width: 0.8695652174rem;
+    height: 2.0289855072rem;
+    color: white;
+    font-size: 1.0144927536rem;
+    text-align: center;
+    line-height: 2.0289855072rem;
+    font-style: normal;
+    right: 0.7246376812rem;
+}
+
+.moments-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color:white;
+}
+
+.moments-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.moments-page .header {
+    position: relative;
+    margin-bottom: 2.115942029rem;
+}
+
+.moments-page .header .header-banner {
+    height: 12.8985507246rem;
+    background-color: pink;
+}
+
+.moments-page .header .header-user {
+    position: absolute;
+    right: 0.4347826087rem;
+    height: 3.2608695652rem;
+    bottom: -1.0144927536rem;
+}
+
+.moments-page .header .header-user .user-name {
+    font-size: 0.6956521739rem;
+    line-height: 2.4637681159rem;
+    margin-right: 0.8695652174rem;
+    color: white;
+    font-weight: bold;
+}
+
+.moments-page .header .header-user .user-link {
+    display: inline-block;
+    vertical-align: top;
+    width: 3.2608695652rem;
+    height: 3.2608695652rem;
+    background-color: palegreen;
+    box-sizing: border-box;
+    padding: 0.0869565217rem;
+    border: solid 0.0144927536rem #d4d4d4;
+}
+
+.moments-page .moments-list .moments-item {
+    display: flex;
+    padding: 0.7246376812rem 0.4782608696rem;
+    border-bottom: 0.0144927536rem solid #dfdfdf;
+    font-size: 0.5797101449rem;
+    position: relative;
+}
+
+.moments-page .moments-list .moments-item .item-left {
+    background-color: palegreen;
+    width: 1.8550724638rem;
+    height: 1.8550724638rem;
+    margin-right: 0.4347826087rem;
+}
+
+.moments-page .moments-list .moments-item .item-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.moments-page .moments-list .moments-item .item-right {
+    flex: 1;
+    overflow: hidden;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-name {
+    color: #637ab4;
+    font-size: 0.5507246377rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-msg {
+    line-height: 1.0144927536rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 1.4492753623rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-time {
+    color: #999;
+    font-size: 0.5217391304rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-reply-btn {
+    width: 1.4492753623rem;
+    background: #fff;
+    height: 100%;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-reply {
+    background: currentColor;
+    width: 0.8115942029rem;
+    height: 0.6086956522rem;
+    float: right;
+    color: #8c99c1;
+    position: relative;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-reply:after {
+    content: "";
+    width: 0.1449275362rem;
+    height: 0.1449275362rem;
+    background: #fff;
+    border-radius: 0.0144927536rem;
+    box-shadow: 0.2898550725rem 0 0 #fff;
+    position: absolute;
+    top: 50%;
+    left: 0.2028985507rem;
+    transform: translate(0, -50%);
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-reply:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: solid 0.1594202899rem transparent;
+    border-right-color: #8c99c1;
+    left: -0.3043478261rem;
+    top: 50%;
+    margin-top: -0.1594202899rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-panel {
+    position: absolute;
+    height: 100%;
+    width: 7.8260869565rem;
+    right: 1.0434782609rem;
+    top: 0;
+    background-color: peachpuff;
+    z-index: 1;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-panel .icon-praise {
+    width: 3.9130434783rem;
+    float: left;
+    height: 100%;
+    background-color: palegreen;
+    position: relative;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-panel .icon-praise:after {
+    content: "";
+    position: absolute;
+    width: 0.0144927536rem;
+    height: 1.0144927536rem;
+    background-color: #363d40;
+    right: -1px;
+    top: 0.2608695652rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .item-ft .item-panel .comm-icon {
+    width: 3.9130434783rem;
+    float: left;
+    height: 100%;
+}
+
+.moments-page .moments-list .moments-item .item-right .icon-like-blue {
+    display: inline-block;
+    width: 0.5797101449rem;
+    height: 0.5797101449rem;
+    position: relative;
+    top: 0.0724637681rem;
+    background-size: 100%;
+}
+
+.moments-page .moments-list .moments-item .item-right .reply-zone {
+    background: #f0f0f0;
+    margin-top: 0.231884058rem;
+    position: relative;
+}
+
+.moments-page .moments-list .moments-item .item-right .reply-zone .reply-who {
+    color: #637ab4;
+}
+
+.moments-page .moments-list .moments-item .item-right .reply-zone .reply-like {
+    border-bottom: solid 0.0144927536rem #dddedf;
+    box-sizing: border-box;
+    padding: 0.2898550725rem 0.3768115942rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .reply-zone:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: solid 0.2463768116rem transparent;
+    border-bottom-color: #f3f3f5;
+    top: -0.4927536232rem;
+    left: 0.4347826087rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .reply-zone .reply-comment {
+    border-top: 0.0144927536rem solid #ccc;
+    box-sizing: border-box;
+    padding: 0.2898550725rem 0.3768115942rem;
+}
+
+.moments-page .moments-list .moments-item .item-right .reply-zone .reply-comment .comment-item {
+    font-size: 0.5797101449rem;
+    line-height: 1.0144927536rem;
+}
+
+
+/*# sourceMappingURL=moments.css.map */

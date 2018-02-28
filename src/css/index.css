@@ -1,0 +1,343 @@
+.i-main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2.1304347826rem 0;
+}
+
+.i-main .find-nav,
+.i-main .about-me {
+    width: 100%;
+    background-color: #efeff4;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.7246376812rem;
+    line-height: 1.884057971rem;
+}
+
+.i-main .find-nav .nav-title,
+.i-main .about-me .nav-title {
+    width: 100%;
+    height: 1.884057971rem;
+    background-color: white;
+    border-bottom: solid 0.0144927536rem #d9d9d9;
+    border-top: solid 0.0144927536rem #d9d9d9;
+    box-sizing: border-box;
+    padding-left: 0.6811594203rem;
+}
+
+.i-main .find-nav .nav-title .fa-angle-right,
+.i-main .about-me .nav-title .fa-angle-right {
+    float: right;
+    color: #c7c7cc;
+    margin-right: 0.5797101449rem;
+    font-size: 1.0144927536rem;
+    margin-top: 0.4057971014rem;
+}
+
+.i-main .find-nav .nav-title .icon,
+.i-main .about-me .nav-title .icon {
+    float: left;
+    width: 0.9420289855rem;
+    height: 0.9420289855rem;
+    margin-right: 0.7246376812rem;
+    margin-top: 0.4637681159rem;
+    background-size: 100%;
+}
+
+.i-main .find-nav .nav-group,
+.i-main .about-me .nav-group {
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding-left: 0.6811594203rem;
+    border-bottom: solid 0.0144927536rem #d9d9d9;
+    border-top: solid 0.0144927536rem #d9d9d9;
+}
+
+.i-main .find-nav .nav-group p,
+.i-main .about-me .nav-group p {
+    height: 1.884057971rem;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.i-main .find-nav .nav-group p .icon,
+.i-main .about-me .nav-group p .icon {
+    float: left;
+    width: 0.9420289855rem;
+    height: 0.9420289855rem;
+    margin-right: 0.7246376812rem;
+    margin-top: 0.4637681159rem;
+    background-size: 100%;
+}
+
+.i-main .find-nav .nav-group p .fa-angle-right,
+.i-main .about-me .nav-group p .fa-angle-right {
+    float: right;
+    color: #c7c7cc;
+    margin-right: 0.5797101449rem;
+    font-size: 1.0144927536rem;
+    margin-top: 0.4057971014rem;
+}
+
+.i-main .find-nav .nav-group p:last-of-type,
+.i-main .about-me .nav-group p:last-of-type {
+    border-bottom: 0;
+}
+
+.i-main .find-nav .icon-circle,
+.i-main .about-me .icon-circle {
+    background: url("") no-repeat;
+}
+
+.i-main .find-nav .icon-sao,
+.i-main .about-me .icon-sao {
+    background: url("") no-repeat;
+}
+
+.i-main .main-search {
+    height: 2.4202898551rem;
+    background-color: #efeff4;
+    box-sizing: border-box;
+    padding: 0.4347826087rem 0.3623188406rem;
+}
+
+.i-main .main-search .search-box {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0.2608695652rem;
+    font-size: 0.7246376812rem;
+    line-height: 1.5217391304rem;
+    text-align: center;
+    color: #8e8e93;
+    letter-spacing: 0.0724637681rem;
+    border: solid 1px #dfdfdd;
+    position: relative;
+}
+
+.i-main .main-search .search-box .fa-microphone {
+    position: absolute;
+    right: 0.4347826087rem;
+    top: 0.4347826087rem;
+}
+
+.i-main .chat-list {
+    box-sizing: border-box;
+    padding: 0 0.4347826087rem;
+}
+
+.i-main .chat-list .item {
+    height: 2.8985507246rem;
+    border-bottom: solid 1px #dfdfdd;
+    box-sizing: border-box;
+    padding: 0.3913043478rem 0;
+}
+
+.i-main .chat-list .item .item-pic {
+    float: left;
+    width: 2.1739130435rem;
+    height: 2.1739130435rem;
+    float: left;
+    background-color: pink;
+    border-radius: 0.1449275362rem;
+    margin-right: 0.4347826087rem;
+    position: relative;
+}
+
+.i-main .chat-list .item .item-pic .tip {
+    position: absolute;
+    width: 0.7536231884rem;
+    height: 0.7536231884rem;
+    border-radius: 0.3768115942rem;
+    right: -0.1884057971rem;
+    top: -0.1884057971rem;
+    font-size: 0.4347826087rem;
+    line-height: 0.7536231884rem;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    background-color: #f3343b;
+}
+
+.i-main .chat-list .item .item-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.i-main .chat-list .item .item-info {
+    float: left;
+    width: 14.4927536232rem;
+    height: 100%;
+}
+
+.i-main .chat-list .item .item-info .item-font {
+    height: 1.0869565217rem;
+    font-size: 0.5797101449rem;
+    line-height: 1.0869565217rem;
+    color: #9b9b9b;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.i-main .chat-list .item .item-info .item-font .name {
+    font-size: 0.7246376812rem;
+    color: #000000;
+}
+
+.i-main .chat-list .item .item-info .item-font .time {
+    float: right;
+}
+
+.i-main .about-me {
+    box-sizing: border-box;
+    padding: 0.652173913rem 0;
+    justify-content: flex-start;
+}
+
+.i-main .about-me .my-info {
+    height: 3.7971014493rem;
+    background-color: white;
+    margin-bottom: 0.8695652174rem;
+    box-sizing: border-box;
+    padding: 0.4782608696rem 0.6086956522rem;
+}
+
+.i-main .about-me .my-info .my-pic {
+    float: left;
+    width: 2.7971014493rem;
+    height: 2.7971014493rem;
+    background-color: pink;
+    margin-right: 0.5217391304rem;
+}
+
+.i-main .about-me .my-info .my-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.i-main .about-me .my-info .my-tag {
+    float: left;
+    width: 11.1594202899rem;
+    height: 2.7971014493rem;
+    margin-right: 0.0724637681rem;
+}
+
+.i-main .about-me .my-info .my-tag p {
+    height: 50%;
+    line-height: 1.3913043478rem;
+}
+
+.i-main .about-me .my-info .my-tag .my-name {
+    font-size: 0.6956521739rem;
+}
+
+.i-main .about-me .my-info .my-tag .my-id {
+    font-size: 0.5507246377rem;
+}
+
+.i-main .about-me .my-info .more-tag {
+    float: right;
+    height: 2.7971014493rem;
+    display: flex;
+    align-items: center;
+}
+
+.i-main .about-me .my-info .more-tag .twocode {
+    background-color: paleturquoise;
+    width: 0.7246376812rem;
+    height: 0.7246376812rem;
+    margin-right: 0.4347826087rem;
+    margin-right: 0.4347826087rem;
+}
+
+.i-main .about-me .my-info .more-tag .fa-angle-right {
+    color: #c7c7cc;
+    font-size: 1.0144927536rem;
+}
+
+.i-main .about-me .nav-title {
+    margin-bottom: 0.8695652174rem;
+}
+
+.i-main .about-me .nav-group {
+    margin-bottom: 0.8695652174rem;
+}
+
+.address-list .select-list {
+    background-color: white;
+    border-bottom: solid 1px #e2e2e2;
+    box-sizing: border-box;
+    padding: 0 0.4347826087rem;
+}
+
+.address-list .select-list .select-item {
+    height: 2.2608695652rem;
+    border-bottom: solid 1px #e2e2e2;
+    box-sizing: border-box;
+    padding: 0.3768115942rem 0;
+}
+
+.address-list .select-list .select-item .select-icon {
+    float: left;
+    width: 1.5072463768rem;
+    height: 1.5072463768rem;
+    background-color: palegreen;
+    margin-right: 0.4637681159rem;
+}
+
+.address-list .select-list .select-item span {
+    font-size: 0.6376811594rem;
+}
+
+.address-list .select-list .select-item:nth-last-of-type(1) {
+    border-bottom: 0;
+}
+
+.address-list .friend-list .friend-item .title {
+    height: 0.8985507246rem;
+    background-color: #f1f0f6;
+    font-size: 0.4347826087rem;
+    color: #89888e;
+    line-height: 0.8985507246rem;
+    text-indent: 0.4347826087rem;
+}
+
+.address-list .friend-list .friend-item .list {
+    box-sizing: border-box;
+    padding: 0 0 0 0.4347826087rem;
+}
+
+.address-list .friend-list .friend-item .list .item {
+    height: 2.2608695652rem;
+    border-bottom: solid 1px #e2e2e2;
+    box-sizing: border-box;
+}
+
+.address-list .friend-list .friend-item .list .item .friend-photo {
+    float: left;
+    width: 1.5072463768rem;
+    height: 1.5072463768rem;
+    background-color: palegreen;
+    margin-right: 0.4637681159rem;
+}
+
+.address-list .friend-list .friend-item .list .item .friend-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.address-list .friend-list .friend-item .list .item .friend-name {
+    font-size: 0.6376811594rem;
+}
+
+
+/*# sourceMappingURL=index.css.map */

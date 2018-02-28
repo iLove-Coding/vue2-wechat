@@ -1,0 +1,28 @@
+body,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+p {
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: top; }
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+button,
+input {
+  -webkit-appearance: none; }
+
+/*# sourceMappingURL=reset.css.map */

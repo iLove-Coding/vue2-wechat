@@ -1,0 +1,117 @@
+.delete-page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-top: 2.8550724638rem;
+  background-color: #efeff4; }
+  .delete-page .nav-group p .tag {
+    width: 50%; }
+  .delete-page .btn-set {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.8695652174rem; }
+
+.chat-head {
+  height: 2.0289855072rem;
+  background-color: #302f35;
+  text-align: center;
+  font-size: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 5; }
+  .chat-head .return-icon {
+    position: absolute;
+    height: 2.0289855072rem;
+    color: white;
+    font-size: 0.7226086957rem;
+    line-height: 2.0289855072rem;
+    /* left: 0.5217391304rem;  */
+  }
+  .chat-head .title {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.7826086957rem;
+    color: white;
+    line-height: 2.0289855072rem;
+    margin-right: 0.0869565217rem;
+    font-weight: normal; }
+  .chat-head .fa-user {
+    position: absolute;
+    width: 0.8695652174rem;
+    height: 2.0289855072rem;
+    color: white;
+    font-size: 1.0144927536rem;
+    text-align: center;
+    line-height: 2.0289855072rem;
+    font-style: normal;
+    right: 0.7246376812rem; }
+
+.nav-title {
+  width: 100%;
+  height: 1.884057971rem;
+  background-color: white;
+  border-bottom: solid 0.0144927536rem #d9d9d9;
+  border-top: solid 0.0144927536rem #d9d9d9;
+  box-sizing: border-box;
+  padding-left: 0.6811594203rem;
+  font-size: 0.6666666667rem;
+  line-height: 1.884057971rem;
+  margin-bottom: 0.9420289855rem; }
+  .nav-title .fa-angle-right {
+    float: right;
+    color: #c7c7cc;
+    margin-right: 0.5797101449rem;
+    font-size: 1.0144927536rem;
+    margin-top: 0.4057971014rem; }
+  .nav-title .icon {
+    float: left;
+    width: 0.9420289855rem;
+    height: 0.9420289855rem;
+    margin-right: 0.7246376812rem;
+    margin-top: 0.4637681159rem;
+    background-size: 100%; }
+
+.nav-group {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-left: 0.6811594203rem;
+  border-bottom: solid 0.0144927536rem #d9d9d9;
+  border-top: solid 0.0144927536rem #d9d9d9;
+  margin-bottom: 0.9420289855rem; }
+  .nav-group p {
+    height: 1.884057971rem;
+    border-bottom: solid 1px #d9d9d9;
+    font-size: 0.6666666667rem;
+    line-height: 1.884057971rem; }
+    .nav-group p .tag {
+      display: inline-block;
+      width: 3.4057971014rem; }
+    .nav-group p .icon {
+      float: left;
+      width: 0.9420289855rem;
+      height: 0.9420289855rem;
+      margin-right: 0.7246376812rem;
+      margin-top: 0.4637681159rem;
+      background-size: 100%; }
+    .nav-group p .fa-angle-right {
+      float: right;
+      color: #c7c7cc;
+      margin-right: 0.5797101449rem;
+      font-size: 1.0144927536rem;
+      margin-top: 0.4057971014rem; }
+  .nav-group p:last-of-type {
+    border-bottom: 0; }
+
+.delete-btn {
+  width: 100%;
+  height: 1.9710144928rem;
+  background-color: #e64340;
+  color: white;
+  font-size: 0.7246376812rem;
+  border-radius: 0.2898550725rem;
+  border: none; }
+
+/*# sourceMappingURL=deletePage.css.map */

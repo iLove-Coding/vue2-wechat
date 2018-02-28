@@ -1,0 +1,75 @@
+.add-page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 2.8550724638rem;
+    background-color: #efeff4; }
+    .add-page .nav-group p .tag {
+      width: 50%; }
+    .add-page .btn-set {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 0.8695652174rem; }
+  
+  .chat-head {
+    height: 2.0289855072rem;
+    background-color: #302f35;
+    text-align: center;
+    font-size: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 5; }
+    .chat-head .return-icon {
+      position: absolute;
+      height: 2.0289855072rem;
+      color: white;
+      font-size: 0.7826086957rem;
+      line-height: 2.0289855072rem;
+      left: 0.5217391304rem; }
+    .chat-head .title {
+      display: inline-block;
+      vertical-align: top;
+      font-size: 0.7826086957rem;
+      color: white;
+      line-height: 2.0289855072rem;
+      margin-right: 0.0869565217rem;
+      font-weight: normal; }
+    .chat-head .fa-user {
+      position: absolute;
+      width: 0.8695652174rem;
+      height: 2.0289855072rem;
+      color: white;
+      font-size: 1.0144927536rem;
+      text-align: center;
+      line-height: 2.0289855072rem;
+      font-style: normal;
+      right: 0.7246376812rem; }
+  
+  .add-page .search-btn {
+    height: 2.0289855072rem;
+    background-color: white;
+    box-sizing: border-box;
+    padding-left: 1.0869565217rem;
+    border-top: solid 0.0144927536rem #d9d9d9;
+    border-bottom: solid 0.0144927536rem #d9d9d9; }
+    .add-page .search-btn .fa-search {
+      color: #3fb838;
+      font-size: 0.8695652174rem;
+      line-height: 2.0289855072rem;
+      margin-right: 0.8695652174rem; }
+    .add-page .search-btn .tag {
+      height: 1.5942028986rem;
+      width: 14.0579710145rem;
+      color: #c7c7cd;
+      border: 0;
+      font-size: 0.7246376812rem;
+      outline: none; }
+  .add-page .my-mail {
+    font-size: 0.6956521739rem;
+    line-height: 1.5362318841rem;
+    text-indent: 1.0869565217rem; }
+  
+  /*# sourceMappingURL=addPage.css.map */
+  
